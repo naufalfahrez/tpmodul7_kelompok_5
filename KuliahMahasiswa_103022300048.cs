@@ -1,5 +1,4 @@
 using System.Text.Json;
-
     public class Course
     {
         public string code { get; set; }
@@ -11,7 +10,7 @@ using System.Text.Json;
         public List<Course> courses { get; set; }
     }
 
-    public class KuliahMahasiswa_103022330105
+    public class KuliahMahasiswa_103022300048
     {
         public void ReadJSON()
         {
