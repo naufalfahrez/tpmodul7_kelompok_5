@@ -1,6 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.IO;
 
-namespace Naufal
+
+namespace Rakan
 {
     public class Nama
     {
@@ -15,11 +23,11 @@ namespace Naufal
         public string fakultas { get; set; }
     }
 
-    public class DataMahasiswa_103022330105
+    public class DataMahasiswa_1030223330044
     {
         public void ReadJSON()
         {
-            string filePath = "tp7_1_103022330105.json";
+            string filePath = "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\ADPL\\TPMOD7\\tp7_1_103022330044.json";
             if (File.Exists(filePath))
             {
                 string jsonString = File.ReadAllText(filePath);

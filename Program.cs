@@ -1,19 +1,10 @@
-﻿using System;
-using Naufal;
-using matkul;
+﻿using Rakan;
 
-namespace program_naufal
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            var data = new DataMahasiswa_103022330105();
-            data.ReadJSON();
-            var kuliah = new KuliahMahasiswa_103022330105();
-            kuliah.ReadJSON();
-
-            Console.ReadKey();
-        }
+        DataMahasiswa_1030223330044 mahasiswa = new DataMahasiswa_1030223330044();
+        mahasiswa.ReadJSON();
     }
 }
