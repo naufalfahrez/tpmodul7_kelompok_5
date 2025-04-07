@@ -8,6 +8,8 @@ using System.Text.Json.Serialization;
 using System.IO;
 
 
+namespace Faiz
+{
     public class Nama
     {
         public string depan { get; set; }
@@ -21,7 +23,7 @@ using System.IO;
         public string fakultas { get; set; }
     }
 
-    public class DataMahasiswa_1030223330044
+    public class DataMahasiswa_1030223330048
     {
         public void ReadJSON()
         {
@@ -40,3 +42,4 @@ using System.IO;
             }
         }
     }
+}
