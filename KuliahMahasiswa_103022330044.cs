@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace matkul
+namespace Rakan
 {
     public class Course
     {
@@ -17,7 +17,7 @@ namespace matkul
     {
         public void ReadJSON()
         {
-            string filePath = "tp7_2_103022330105.json";
+            string filePath = "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\ADPL\\TPMOD7\\tp7_2_103022330044.json";
 
             try
             {
