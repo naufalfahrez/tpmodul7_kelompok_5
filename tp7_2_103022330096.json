@@ -1,0 +1,32 @@
+{
+	"courses": [
+		{
+			"code": "CRI2C4",
+			"name": "Konstruksi Perangkat Lunak"
+		},
+		{
+			"code": "kode_matkul_2",
+			"name": "Basis Data"
+		},
+		{
+			"code": "kode_matkul_3",
+			"name": "Arsitektur dan Desain Perangkat Lunak"
+		},
+		{
+			"code": "kode_matkul_4",
+			"name": "Dasar Jaringan Komputer"
+		},
+		{
+			"code": "kode_matkul_5",
+			"name": "Kecerdasan Buatan"
+		},
+		{
+			"code": "kode_matkul_6",
+			"name": "Proyek Tingkat 2"
+		},
+		{
+			"code": "kode_matkul_7",
+			"name": "Bahasa Inggris"
+		}
+	]
+}
