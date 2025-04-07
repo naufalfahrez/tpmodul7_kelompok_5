@@ -1,7 +1,5 @@
 using System.Text.Json;
 
-namespace Rakan
-{
     public class Course
     {
         public string code { get; set; }
@@ -48,4 +46,3 @@ namespace Rakan
             }
         }
     }
-}
