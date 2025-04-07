@@ -8,8 +8,6 @@ using System.Text.Json.Serialization;
 using System.IO;
 
 
-namespace Rakan
-{
     public class Nama
     {
         public string depan { get; set; }
@@ -42,4 +40,3 @@ namespace Rakan
             }
         }
     }
-}
