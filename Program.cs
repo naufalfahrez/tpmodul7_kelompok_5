@@ -1,7 +1,8 @@
 ﻿using System;
 using Naufal;
+using matkul;
 
-namespace YourNamespaceName
+namespace program_naufal
 {
     class Program
     {
@@ -9,6 +10,8 @@ namespace YourNamespaceName
         {
             var data = new DataMahasiswa_103022330105();
             data.ReadJSON();
+            var kuliah = new KuliahMahasiswa_103022330105();
+            kuliah.ReadJSON();
 
             Console.ReadKey();
         }
