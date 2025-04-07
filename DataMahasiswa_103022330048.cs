@@ -27,7 +27,7 @@ namespace Rakan
     {
         public void ReadJSON()
         {
-            string filePath = "C:\\Users\\Faiz\\OneDrive - Telkom University\\Documents\\KS4\\KPL\\PRAKTIKUM\\tpmodul7_kelompok_5\\tp7_1_103022330044.json";
+            string filePath = "C:\\Users\\Faiz\\OneDrive - Telkom University\\Documents\\KS4\\KPL\\PRAKTIKUM\\tpmodul7_kelompok_5\\tp7_1_103022300048.json";
             if (File.Exists(filePath))
             {
                 string jsonString = File.ReadAllText(filePath);
