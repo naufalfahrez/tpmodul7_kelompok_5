@@ -17,7 +17,7 @@ namespace Rakan
     {
         public void ReadJSON()
         {
-            string filePath = "C:\\Users\\Rakan\\Documents\\Telkom\\SMT4\\ADPL\\TPMOD7\\tp7_2_103022330044.json";
+            string filePath = "C:\\Users\\Faiz\\OneDrive - Telkom University\\Documents\\KS4\\KPL\\PRAKTIKUM\\tpmodul7_kelompok_5\\tp7_2_103022330044.json";
 
             try
             {
