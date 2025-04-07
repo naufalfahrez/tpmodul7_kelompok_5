@@ -22,7 +22,8 @@ namespace tpmodul7_kelompok_5
     {
         public void ReadJson()
         {
-            string filePath = "D:\\Telyu\\Sems4\\KPL\\tp\\tp 7\\tpmodul7_kelompok_5\\tp7_2_103022330096.json";
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tp7_2_103022330096.json");
+
             string JsonString = File.ReadAllText(filePath);
             MatkulList data = JsonSerializer.Deserialize<MatkulList>(JsonString);
 
